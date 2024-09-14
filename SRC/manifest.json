@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Calculadora",
+  "version": "1.0",
+  "description": "Uma calculadora simples como extensão do Chrome.",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": []
+}
