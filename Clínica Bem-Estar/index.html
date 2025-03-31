@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clínica Bem-Estar: Saúde e Qualidade de Vida</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <h1>Clínica Bem-Estar: Saúde e Qualidade de Vida</h1>
+    <p class="welcome-text">Bem-vindo ao seu oásis de bem-estar. Nossa clínica oferece uma gama completa de serviços para promover saúde e bem-estar.</p>
+  </header>
+
+  <main>
+    <section class="services">
+      <h2>Nossos Serviços Especializados</h2>
+      <div class="services-grid">
+        <div class="service-card">
+          <img src="images/odontologia.jpg" alt="Serviço de Odontologia" loading="lazy">
+          <h3>Odontologia</h3>
+          <p>Tratamentos preventivos e estéticos, com foco em saúde bucal e sorriso harmonioso.</p>
+        </div>
+        <div class="service-card">
+          <img src="images/fisioterapia.jpg" alt="Serviço de Fisioterapia" loading="lazy">
+          <h3>Fisioterapia</h3>
+          <p>Reabilitação, tratamento de dores e prevenção de lesões, com equipe altamente qualificada.</p>
+        </div>
+        <div class="service-card">
+          <img src="images/psicologia.jpg" alt="Serviço de Psicologia" loading="lazy">
+          <h3>Psicologia</h3>
+          <p>Atendimento individual e em grupo, com foco em bem-estar mental e emocional.</p>
+        </div>
+        <div class="service-card">
+          <img src="images/estetica.jpg" alt="Serviço de Estética" loading="lazy">
+          <h3>Estética</h3>
+          <p>Procedimentos para rejuvenescimento, harmonização facial e tratamentos corporais, com tecnologia de ponta.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="team">
+      <h2>Conheça Nossa Equipe Especializada</h2>
+      <div class="team-grid">
+        <div class="team-member">
+          <img src="images/dra. ana silva.jpg" alt="Dra. Ana Silva" loading="lazy">
+          <h3>Dra. Ana Silva</h3>
+          <p>Odontologia</p>
+        </div>
+        <div class="team-member">
+          <img src="images/dr. pedro santos.jpg" alt="Dr. Pedro Santos" loading="lazy">
+          <h3>Dr. Pedro Santos</h3>
+          <p>Fisioterapia</p>
+        </div>
+        <div class="team-member">
+          <img src="images/dra. maria oliveira.jpg" alt="Dra. Maria Oliveira" loading="lazy">
+          <h3>Dra. Maria Oliveira</h3>
+          <p>Psicologia</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials">
+      <h2>Depoimentos de Pacientes Satisfeitos</h2>
+      <div class="testimonials-grid">
+        <div class="testimonial">
+          <p>"A Clínica Bem-Estar me proporcionou o tratamento ideal para minhas dores nas costas. Recomendo fortemente a equipe de fisioterapia!"</p>
+          <cite>- João da Silva</cite>
+        </div>
+        <div class="testimonial">
+          <p>"A Dra. Ana Silva é uma profissional incrível. O meu sorriso está perfeito graças ao seu trabalho!"</p>
+          <cite>- Maria Souza</cite>
+        </div>
+        <div class="testimonial">
+          <p>"A terapia com a Dra. Maria me ajudou a lidar com a ansiedade e melhorar minha qualidade de vida. Super recomendo!"</p>
+          <cite>- José Oliveira</cite>
+        </div>
+      </div>
+    </section>
+
+    <section class="differentials">
+      <h2>Diferenciais e Compromisso com a Saúde</h2>
+      <div class="differentials-grid">
+        <div class="differential">
+          <span class="number">1</span>
+          <p>Tecnologia de ponta e equipamentos modernos para oferecer os melhores tratamentos.</p>
+        </div>
+        <div class="differential">
+          <span class="number">2</span>
+          <p>Equipe altamente qualificada e especializada em cada área de atuação.</p>
+        </div>
+        <div class="differential">
+          <span class="number">3</span>
+          <p>Atendimento personalizado e acolhedor, priorizando o bem-estar do paciente.</p>
+        </div>
+        <div class="differential">
+          <span class="number">4</span>
+          <p>Ambiente moderno e tranquilo, propício à relaxação e recuperação.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact">
+        <h2>Localização e Informações de Contato</h2>
+        <p>Estamos localizados na [Endereço da Clínica], no centro da cidade. Para agendamento de consultas, entre em contato conosco por telefone: [Número de Telefone] ou através do email: [Endereço de Email].</p>
+        <img src="images/clinica bem-estar.jpg" alt="Clínica Bem-Estar" loading="lazy">
+
+        <h2>Formulário de Contato e Agendamento</h2>
+        <p>Preencha o formulário abaixo para saber mais sobre nossos serviços, agendar uma consulta ou tirar suas dúvidas. Nossa equipe está à disposição para lhe ajudar.</p>
+        
+        <form class="contact-form">
+            <input type="text" placeholder="Nome" required>
+            <input type="email" placeholder="Email" required>
+            <input type="text" placeholder="Cidade" required>
+            <input type="text" placeholder="Estado" required>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+  </main>
+
+  <!-- Script do ScrollReveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+<script>
+    ScrollReveal().reveal('.service-card, .team-member, .testimonial, .differential', {
+        duration: 800,
+        distance: '50px',
+        easing: 'ease-in-out',
+        origin: 'bottom',
+        reset: false
+    });
+</script>
+</body>
+</html>
